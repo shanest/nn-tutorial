@@ -8,7 +8,7 @@ I recommend using `conda` from the Anaconda Distribution: https://www.anaconda.c
 Once installed, you can execute the following:
 1. `conda create -n nn-tutorial python=3.7`
 2. `conda activate nn-tutorial`
-3. `conda install pytorch torchvision jupyter -c pytorch`
+3. `conda install pytorch torchvision jupyter pandas plotnine -c pytorch`
 
 ### Running the tutorial
 
