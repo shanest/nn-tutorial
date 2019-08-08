@@ -10,6 +10,9 @@ Once installed, you can execute the following:
 2. `conda activate nn-tutorial`
 3. `conda install pytorch torchvision jupyter pandas -c pytorch`
 4. `conda install plotnine -c conda-forge`
+
+Note: if you end up having trouble with the Jupyter notebook not being able to find the packages you've installed in your environment, it isn't using the right kernel, and the following may solve this problem (in any case it won't hurt):
+
 5. `conda install nb_conda_kernels`
 
 ### Running the tutorial
